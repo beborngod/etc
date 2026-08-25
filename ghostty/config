@@ -1,0 +1,56 @@
+# shell
+command = /Users/alexiusbelov/.nix-profile/bin/fish
+shell-integration = fish
+shell-integration-features = true
+
+# remapping
+keybind = cmd+f=text:\x12
+keybind = cmd+r=text:\x00
+keybind = performable:ctrl+c=copy_to_clipboard
+keybind = ctrl+v=paste_from_clipboard
+keybind = cmd+z=text:\x1f
+
+keybind = cmd+t=new_window
+keybind = cmd+n=new_tab
+keybind = cmd+d=new_split:right
+keybind = cmd+shift+d=new_split:down
+
+keybind = cmd+shift+r=prompt_tab_title
+keybind = cmd+enter=toggle_split_zoom
+keybind = cmd+alt+equal=equalize_splits
+
+# styling
+window-padding-color = extend-always
+window-decoration = true
+window-title-font-family = JetBrainsMono Nerd Font
+
+font-size = 14
+font-family = JetBrainsMono Nerd Font
+font-style = Regular
+font-feature = calt
+font-feature = liga
+
+background-opacity = 0.9
+background-blur = 30
+selection-background = #414647
+selection-foreground = cell-foreground
+
+# custom-shader = focused-split-frame.glsl
+custom-shader-animation = false
+
+cursor-style = bar
+cursor-style-blink = true
+
+macos-icon = custom-style
+macos-icon-frame = beige
+macos-icon-ghost-color = #fffaf4
+macos-icon-screen-color = #0e1019
+macos-titlebar-style = tabs
+macos-option-as-alt = true
+macos-window-buttons = hidden
+
+theme = Gruvbox Material
+
+# other
+copy-on-select = clipboard
+unfocused-split-opacity = 1

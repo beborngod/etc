@@ -1,0 +1,9 @@
+[[actions]]
+name = "open_file_in_helix"
+lua = '''exec_shell('hx "$file"')'''
+
+[[bindings]]
+action = "open_file_in_helix"
+seq = ["x", "o"]
+scope = "revisions.details"
+desc = "open in helix"

@@ -1,0 +1,18 @@
+theme = "alx-gruvbox"
+
+[editor]
+clipboard-provider = "pasteboard"
+workspace-lsp-roots = ["nord"]
+gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
+auto-format = true
+
+[keys.normal.space]
+l = ":reload"
+
+[editor.inline-diagnostics]
+cursor-line = "error"
+
+[editor.cursor-shape]
+normal = "bar"
+insert = "bar"
+select = "bar"
