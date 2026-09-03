@@ -8,6 +8,7 @@
     nmap
     wget
 
+    zen-browser
     ghostty-bin
     htop
     ncdu
