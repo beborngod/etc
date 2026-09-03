@@ -24,7 +24,7 @@
     fs = "fzf";
     cl = "clear";
     tm = "tmux";
-    h = "helix";
+    h = "hx";
     
     # jujutsu II
     jp = "jj git push";

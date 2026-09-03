@@ -8,9 +8,10 @@ auto-format = true
 
 [keys.normal.space]
 l = ":reload"
+"." = ":noop %sh{printf %s '%{buffer_name}' | pbcopy}"
 
 [editor.inline-diagnostics]
-cursor-line = "error"
+cursor-line = "hint"
 
 [editor.cursor-shape]
 normal = "bar"

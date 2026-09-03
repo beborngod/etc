@@ -35,12 +35,15 @@
     python3
     rustc
     cargo
+    rust-analyzer
     rustfmt
     clippy
     zig
+    nixfmt
 
     openssl
     pkg-config
+    buf
     protobuf
     typst
 
